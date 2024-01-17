@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>
+
+getElementById() Method
+
+</title>
+
+
+
+<script>
+
+
+
+
+
+function demo() {
+
+var demo = document.getElementById("demo");
+
+demo.style.color = "green";
+
+}
+
+</script>
+
+</head>
+
+
+
+<body style="text-align:center">
+
+<h1 id="demo">Hi, This is Abinash</h1>
+
+<h2>DOM getElementById() Method</h2>
+
+
+<input type="button"
+
+onclick="demo()"
+
+value="Click here to change color" />
+
+
+
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+
+<script>
+document.getElementsByTagName("p")[0].innerHTML = "Hello World!";
+</script>
+
+
+
+
+<br>
+<div class="example color">
+      <p>Hello
+</p>
+</div>
+<br>
+<div class="example color">
+  <p>Hello</p>
+</div>
+
+<script>
+ document.getElementsByClassName("example color")[0].style.backgroundColor = "green";
+</script>
+
+
+<p>This is a p element.</p>
+
+<script>
+document.querySelector("h1").style.backgroundColor = "red";
+</script>
+
+
+
+</body>
+
+
+
+</html>
