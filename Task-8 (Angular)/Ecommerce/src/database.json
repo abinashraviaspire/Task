@@ -1,0 +1,16 @@
+{
+    "seller":[
+        {
+            "name":"sargunan",
+            "email":"sargunanarc@gmail.com",
+            "password":"Pdss@2002",
+            "id":1 
+        },
+        {
+            "name":"Abinash",
+            "email":"abinasharc@gmail.com",
+            "password":"Pdss@2002",
+            "id":2
+        }
+    ]
+}

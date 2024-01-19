@@ -1,8 +1,0 @@
-D:\task\New folder\Task-6\obj\Debug\net8.0\Task-6.GeneratedMSBuildEditorConfig.editorconfig
-D:\task\New folder\Task-6\obj\Debug\net8.0\Task-6.AssemblyInfoInputs.cache
-D:\task\New folder\Task-6\obj\Debug\net8.0\Task-6.AssemblyInfo.cs
-D:\task\New folder\Task-6\obj\Debug\net8.0\Task-6.csproj.CoreCompileInputs.cache
-D:\task\New folder\Task-6\obj\Debug\net8.0\Task-6.MvcApplicationPartsAssemblyInfo.cache
-D:\task\New folder\Task-6\obj\Debug\net8.0\Task-6.RazorAssemblyInfo.cache
-D:\task\New folder\Task-6\obj\Debug\net8.0\Task-6.RazorAssemblyInfo.cs
-D:\task\New folder\Task-6\obj\Debug\net8.0\Task-6.csproj.AssemblyReference.cache

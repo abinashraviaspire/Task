@@ -1,0 +1,58 @@
+{
+  "seller": [
+    {
+      "name": "Abinash",
+      "email": "abinashabinash711@gmail.com",
+      "password": "Abi",
+      "id": 1
+    }
+  ],
+  "products": [
+    {
+      "id": "a726",
+      "name": "Primebook 4G Android",
+      "price": "40999",
+      "category": "Laptop",
+      "color": "Black",
+      "description": "4 GB/64 GB EMMC Storage/Prime OS) 4G Thin and Light Laptop  (11.6 Inch, Black, 1.065 Kg)",
+      "image": "assets/1.png"
+    },
+    {
+      "id": "a9da",
+      "name": "HP Core i3 11th Gen",
+      "price": "45999",
+      "category": "Laptop",
+      "color": "white",
+      "description": "(8 GB/512 GB SSD/Windows 11 Home) 14s",
+      "image": "assets/2.png"
+    },
+    {
+      "id": "5634",
+      "name": "ASUS Vivobook 15",
+      "price": "44999",
+      "category": "Laptop",
+      "color": "black",
+      "description": "ASUS Vivobook 15 OLED (2022) Core i3 12th Gen - (8 GB/512 GB SSD/Windows 11 Home) X1505ZA-L1311WS Thin and Light Laptop  (15.6 Inch, Indie Black, 1.7 Kg, With MS Office)",
+      "image": "assets/3.png"
+    },
+    {
+      "id": "3e33",
+      "name": "DELL Core i3 12th Gen",
+      "price": "66999",
+      "category": "Laptop",
+      "color": "black",
+      "description": "DELL Core i3 12th Gen - (8 GB/512 GB SSD/Windows 11 Home) New Inspiron 15 Laptop Thin and Light Laptop  (38 cm, Carbon Black, 1.65 Kg, With MS Office)",
+      "image": "https://rukminim1.flixcart.com/image/416/416/xif0q/computer/n/o/s/-original-imaghzah9mjvukjz.jpeg?q=70"
+    }
+  ],
+  "users": [
+    {
+      "name": "Abinash R",
+      "email": "abinashabinash711@gmail.com",
+      "password": "Abinash",
+      "id": 1
+    }
+  ],
+  "cart": [],
+  "orders": []
+}

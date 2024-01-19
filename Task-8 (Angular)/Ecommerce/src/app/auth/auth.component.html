@@ -1,0 +1,79 @@
+<body>
+
+  <div class="user-auth">
+    <div *ngIf="!showLogin" class="inner-container" style="height:500px;">
+      <div class="box">
+        <h1>Sign-up</h1>
+        <form (ngSubmit)="signup()" class="common-form" #userForm="ngForm" >
+          <p class="error-p">{{errorMessage}}</p>
+          <div class="radio-group">
+            
+          </div>
+          <label for="name">Name</label>
+          <input type="text" class="form-input" placeholder="Enter Name" name="name" [(ngModel)]="SignUpData.name"
+          ngModel minlength="3"  [required]="authRole === 'user'" />
+          
+          <label for="userEmail">UserMail</label>
+          <input type="text" id="userEmail" class="form-input" placeholder="Enter Email"  name="email" [(ngModel)]="SignUpData.email" 
+          ngModel minlength="8" 
+        pattern="^[a-z0-9._%+-]*[a-z][a-z0-9._%+-]*@[a-z0-9.-]+\.[a-z]{2,}$" required/>
+
+
+          
+         
+      
+       
+
+          <label for="name">Password</label>
+          <input type="password" class="form-input" placeholder="Enter Password" name="password" [(ngModel)]="SignUpData.password" 
+          ngModel pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[$@$!%?&])[A-Za-z\d$@$!%?&]{8,}$"  required />
+          
+          <button type="submit" class="btn btn-outline-success my-2 my-sm-0" [disabled]="userForm.invalid">Sign Up</button>
+          <div class="change">
+          <p>Already Have Account ? <a (click)="openLogin()" >Click Here</a></p>
+        </div>
+        <div style="color: rgba(255, 0, 0, 0.475)">
+          Password must contain: numbers,upper and loewercase with special characters
+        </div>
+        </form>
+      </div>
+    </div>
+    <div *ngIf="showLogin" class="inner-container" style="height:400px;">
+      <div class="box">
+      <h1>Login</h1>
+      <form #userLogin="ngForm" (ngSubmit)="login()"class="common-form">
+        <p class="error-p">{{LoginerrorMessage}}</p>
+        <div class="radio-group">
+          <!-- <label><input type="radio" name="role" value="seller" [(ngModel)]="authRole" required>Admin</label>
+          <div class="userradio" >
+          <label><input type="radio" name="role" value="user" [(ngModel)]="authRole" required>User</label>
+        </div> -->
+        </div>
+        <label for="name">Username</label>
+        <input type="email" class="form-input" placeholder="Enter Email" name="email" [(ngModel)]="loginData.email" ngModel minlength="8" 
+        pattern="^[a-zA-Z0-9._%+-]*[a-zA-Z][a-zA-Z0-9._%+-]*@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required/>
+
+        <label for="name">Password</label>
+        <input type="password" class="form-input" placeholder="Enter Password" name="password" [(ngModel)]="loginData.password" required
+        ngModel minlength="8" maxlength="20" #password="ngModel"
+  
+        />
+        
+        <button type="submit" class="btn btn-outline-success my-2 my-sm-0" [disabled]="userLogin.invalid">Login</button>
+       
+  
+        <div class="change">
+          <p>Want to Create Account ? <a (click)="openSignUp()" >Click Here</a></p>
+        </div>
+
+
+        
+        <!-- <div *ngIf="LoginerrorMessage" class="error-message">{{ LoginerrorMessage }}</div> -->
+      </form>
+      </div>
+    </div>
+  </div>
+  </body>
+  
+  
+  
